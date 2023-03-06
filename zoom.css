@@ -1,0 +1,71 @@
+
+    .photo1 {
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 1;
+        position: unset;
+        margin-left: 0px;
+        border-width:2pt; border-style:solid;
+        border-radius: 05px;
+
+    }
+    
+      
+    .photo1 img {
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+        z-index: 1;
+    }
+      
+    .photo1:hover img {
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+    .photo2 {
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+        position: absolute;
+        margin: 8px;
+        border-radius: 3px;
+        transition: all 200ms ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        margin-left: 750px;
+        z-index: 1;
+        top: 50px;
+    }
+      
+    .photo2 img {
+        width: 100%;
+        transition: 1s all ease-in-out;
+        z-index: 1;
+
+    }
+
+
+    .photo2:hover {
+ 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+        z-index: 1;
+        
+      }
+      
+    .photo2-actions {
+        margin: 8px;
+        padding: 16px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+
